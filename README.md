@@ -1,16 +1,15 @@
 # technicianApp
 
-A new Flutter project.
+This flutter app where the client can requiest for technisian, all the near by technician will show and the client can chat, see the location of the technician and book the services that technician offers.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. Client and Technician Login, Registr.
+2. Technician shop current location detect.
+3. Real time chat between user and technisian.
+4. client can chat, see technisian location and check the available services to book.
+5. Technician can accept the request or reject it.
+6. simple UI.
+7. Firebase as Database.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [](scrennshots.jpeg)
