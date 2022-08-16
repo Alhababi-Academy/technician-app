@@ -130,7 +130,7 @@ class _homePageMap extends State<homePageMap> {
                                     onPressed: () {
                                       Navigator.of(context).push(
                                         MaterialPageRoute(
-                                          builder: (context) => ChatPage(
+                                          builder: (context) => customChat(
                                             technisianId: snapshot
                                                 .data!.docs[index]['uid'],
                                             TechnisianName: snapshot

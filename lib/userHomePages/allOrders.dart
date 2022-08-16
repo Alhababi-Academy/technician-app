@@ -191,23 +191,46 @@ class _allOrders extends State<allOrders> {
                                       ),
                                     ),
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        color: Colors.blue,
-                                        borderRadius: BorderRadius.circular(5),
+                                  Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.blue,
+                                            borderRadius:
+                                                BorderRadius.circular(5),
+                                          ),
+                                          padding: const EdgeInsets.all(5),
+                                          child: Text(
+                                            snapshot.data!.docs[index]['status']
+                                                .toString(),
+                                            style: const TextStyle(
+                                                fontSize: 14,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                          ),
+                                        ),
                                       ),
-                                      padding: const EdgeInsets.all(5),
-                                      child: Text(
-                                        snapshot.data!.docs[index]['status']
-                                            .toString(),
-                                        style: const TextStyle(
-                                            fontSize: 14,
-                                            color: Colors.white,
-                                            fontWeight: FontWeight.bold),
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(5),
+                                              color: Colors.blue),
+                                          // color: Colors.blue,
+                                          padding: const EdgeInsets.all(5),
+                                          child: Text(
+                                            snapshot.data!
+                                                .docs[index]['PaymentStatus']
+                                                .toString(),
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
+                                        ),
                                       ),
-                                    ),
+                                    ],
                                   ),
                                   const SizedBox(
                                     width: 7,

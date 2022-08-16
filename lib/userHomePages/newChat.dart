@@ -36,10 +36,11 @@ class _ChatPageState extends State<ChatPage> {
   @override
   void initState() {
     super.initState();
-    _checkDataUsers();
+    _checkIfChatIsAvailable();
+    _gettingMessages();
   }
 
-  void _checkDataUsers() async {
+  void _checkIfChatIsAvailable() async {
     String currentUser = user!.uid;
     var chats = technicianApp.firestore!.collection("chats");
     await chats
@@ -72,37 +73,73 @@ class _ChatPageState extends State<ChatPage> {
         .catchError((error) {});
   }
 
-  Future _gettingMessages() async {
+  _gettingMessages<List>() async {
     String currentUser = user!.uid;
-    var chats = technicianApp.firestore!.collection("chats");
-    chats
+    var chats = technicianApp.firestore!
+        .collection("chats")
         .doc(chatDocId)
         .collection('messages')
-        .orderBy('createdOn', descending: true)
-        .snapshots()
-        .listen((event) {
-      var messages = event.docs;
-      setState(() {
-        _messages = messages.cast<types.Message>().toList();
-      });
+        // .orderBy('createdOn', descending: true)
+        .snapshots();
 
-      print("All messages $event");
-    });
+    await for (var messagesGetting in chats) {
+      for (var messages in messagesGetting.docs) {
+        print("This is the data ${messages.data()['msg']}");
+        // _messages = messages.data().values.toList();
+        List gee = messages.data()['msg'];
+
+        // _messages = gee.toList(this);
+        setState(() {
+          _messages.addAll(messages.data()['msg']);
+          // _messages = messages.data().values.toList();
+        });
+      }
+    }
+
+    //     .listen((event) {
+    //   var messages = event.docs;
+    //   for (var element in messages) {
+    //     print("All messages for Reach $element");
+    //   }
+    //   print("All messages before $messages");
+    //   setState(() {
+    //     _messages = messages.cast<types.Message>().toList();
+    //     print("All messages $_messages");
+    //   });
+    // });
+    // return StreamBuilder(
+    //   stream: chats
+    //       .doc(chatDocId)
+    //       .collection('messages')
+    //       // .orderBy('createdOn', descending: true)
+    //       .snapshots(),
+    //   builder: (context, AsyncSnapshot<QuerySnapshot> snapshot) {
+    //     print("All mes ${snapshot.data!.docs}");
+    //     return !snapshot.hasData
+    //         ? const CircularProgressIndicator()
+    //         : Text(
+    //             snapshot.data!.docs.toString(),
+    //           );
+    //   },
+    // );
   }
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-        body: Chat(
-          messages: _messages,
-          onAttachmentPressed: _handleAtachmentPressed,
-          onMessageTap: _handleMessageTap,
-          onPreviewDataFetched: _handlePreviewDataFetched,
-          onSendPressed: _handleSendPressed,
-          showUserAvatars: true,
-          showUserNames: true,
-          user: _user,
-        ),
-      );
+  Widget build(BuildContext context) {
+    _gettingMessages();
+    return Scaffold(
+      body: Chat(
+        messages: _messages,
+        onAttachmentPressed: _handleAtachmentPressed,
+        onMessageTap: _handleMessageTap,
+        onPreviewDataFetched: _handlePreviewDataFetched,
+        onSendPressed: _handleSendPressed,
+        showUserAvatars: true,
+        showUserNames: true,
+        user: _user,
+      ),
+    );
+  }
 
   void _addMessage(types.Message message, [String? text]) {
     String currentUser = user!.uid;
@@ -113,9 +150,9 @@ class _ChatPageState extends State<ChatPage> {
     //   print("This is the element ${message(0, message).toString()}");
     //   _messages.insert(0, message);
     // }
-    setState(() {
-      _messages.insert(0, message);
-    });
+    // setState(() {
+    //   _messages.insert(0, message);
+    // });
     gettingMessages.forEach((key, value) {});
     technicianApp.firestore!
         .collection("chats")

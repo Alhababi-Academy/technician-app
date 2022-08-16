@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_chat_ui/flutter_chat_ui.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:fluttericon/font_awesome5_icons.dart';
 import 'package:technicianApp/DialogBox/loadingDialog.dart';
@@ -127,7 +128,7 @@ class _servicesAvailableState extends State<servicesAvailable> {
                                               )
                                             ],
                                           ),
-                                          SizedBox(
+                                          const SizedBox(
                                             height: 10,
                                           ),
                                           Row(
@@ -154,7 +155,7 @@ class _servicesAvailableState extends State<servicesAvailable> {
                                               ),
                                             ],
                                           ),
-                                          SizedBox(
+                                          const SizedBox(
                                             height: 10,
                                           ),
                                           Row(
@@ -179,36 +180,72 @@ class _servicesAvailableState extends State<servicesAvailable> {
                                               ),
                                             ],
                                           ),
-
-                                          // Row(
-                                          //   mainAxisSize: MainAxisSize.max,
-                                          //   children: [
-                                          //     Expanded(
-                                          //       child: Text(
-                                          //         ",
-                                          //         style: const TextStyle(
-                                          //             color: Colors.white, fontSize: 15.0),
-                                          //       ),
-                                          //     ),
-                                          //   ],
-                                          // ),
+                                          const SizedBox(
+                                            height: 10,
+                                          ),
+                                          Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            children: [
+                                              const Icon(
+                                                Icons.price_change,
+                                                color: Colors.blue,
+                                                size: 27,
+                                              ),
+                                              const SizedBox(
+                                                width: 25,
+                                              ),
+                                              Text(
+                                                snapshot
+                                                    .data!
+                                                    .docs[index]
+                                                        ['PaymentMethod']
+                                                    .toString(),
+                                                style: const TextStyle(
+                                                    fontSize: 14,
+                                                    fontWeight:
+                                                        FontWeight.bold),
+                                              ),
+                                            ],
+                                          ),
                                         ],
                                       ),
                                     ),
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: ElevatedButton(
-                                      onPressed: () {
-                                        serviceId =
-                                            snapshot.data?.docs[index].id;
+                                  Column(
+                                    children: [
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: ElevatedButton(
+                                          onPressed: () {
+                                            serviceId =
+                                                snapshot.data?.docs[index].id;
 
-                                        uploadData(serviceId);
-                                      },
-                                      child: Text("Book"),
-                                    ),
+                                            uploadData(serviceId);
+                                          },
+                                          child: const Text("Book"),
+                                        ),
+                                      ),
+                                      // Padding(
+                                      //   padding: const EdgeInsets.all(8.0),
+                                      //   child: Container(
+                                      //     decoration: BoxDecoration(
+                                      //         borderRadius:
+                                      //             BorderRadius.circular(5),
+                                      //         color: Colors.blue),
+                                      //     // color: Colors.blue,
+                                      //     padding: const EdgeInsets.all(5),
+                                      //     // child: Text(
+                                      //     //   snapshot.data!
+                                      //     //       .docs[index]['PaymentStatus']
+                                      //     //       .toString(),
+                                      //     //   style:
+                                      //     //       TextStyle(color: Colors.white),
+                                      //     // ),
+                                      //   ),
+                                      // ),
+                                    ],
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     width: 7,
                                   ),
                                 ],
@@ -296,6 +333,7 @@ class _servicesAvailableState extends State<servicesAvailable> {
             technicianApp.sharedPreferences!.getString(technicianApp.userName),
         "userEmailPicked":
             technicianApp.sharedPreferences!.getString(technicianApp.userEmail),
+        "PaymentStatus": "NotPaid",
       });
       await technicianApp.firestore?.collection("bookedServices").add({
         "userBooked": uid,
@@ -312,6 +350,7 @@ class _servicesAvailableState extends State<servicesAvailable> {
             technicianApp.sharedPreferences!.getString(technicianApp.userName),
         "userEmailPicked":
             technicianApp.sharedPreferences!.getString(technicianApp.userEmail),
+        "PaymentStatus": "NotPaid",
       });
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Text("Booked Successfully"),

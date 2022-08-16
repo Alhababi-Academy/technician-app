@@ -20,6 +20,9 @@ class _editServiceState extends State<editService> {
   TextEditingController serviceName = TextEditingController();
   TextEditingController serviceInfo = TextEditingController();
   TextEditingController servicePrice = TextEditingController();
+  List<String> PaymentMehod = ['Gcash', 'Paymaya', 'COD'];
+  String? value;
+
   // int? servicePrice;
 
   @override
@@ -48,6 +51,7 @@ class _editServiceState extends State<editService> {
       serviceName.text = result.data()!['serviceName'];
       serviceInfo.text = result.data()!['longDescription'];
       servicePrice.text = result.data()!['price'].toString();
+      value = result.data()!['PaymentMethod'];
       setState(() {
         print("This is the Data $serviceName");
       });
@@ -142,6 +146,26 @@ class _editServiceState extends State<editService> {
                           labelText: "service Price"),
                     ),
                   ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                        color: Colors.black12,
+                        borderRadius: BorderRadius.circular(10)),
+                    child: Container(
+                      padding: EdgeInsets.only(
+                          top: 5, bottom: 5, right: 15, left: 15),
+                      width: MediaQuery.of(context).size.width,
+                      child: DropdownButton<String>(
+                        value: value,
+                        hint: const Text("Please select Payment method"),
+                        items: PaymentMehod.map(buildMenuItem).toList(),
+                        onChanged: (value) =>
+                            setState(() => this.value = value),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -170,6 +194,15 @@ class _editServiceState extends State<editService> {
     );
   }
 
+  // For the drop down Items
+  DropdownMenuItem<String> buildMenuItem(String item) => DropdownMenuItem(
+        value: item,
+        child: Text(
+          item,
+          style: const TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+        ),
+      );
+
   Future updatingData() async {
     User? user = technicianApp.auth!.currentUser;
     String uid = user!.uid;
@@ -189,6 +222,7 @@ class _editServiceState extends State<editService> {
       "serviceName": serviceName.text.trim(),
       "longDescription": serviceInfo.text.trim(),
       "price": int.parse(servicePrice.text),
+      "PaymentMethod": value,
     }).then((value) {
       Navigator.pop(context);
       Route route =

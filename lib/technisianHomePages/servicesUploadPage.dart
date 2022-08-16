@@ -206,6 +206,30 @@ class _servicesUploadPage extends State<servicesUploadPage> {
                                               ),
                                             ],
                                           ),
+                                          SizedBox(
+                                            height: 10,
+                                          ),
+                                          Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            children: [
+                                              const Icon(
+                                                Icons.payments,
+                                                color: Colors.blue,
+                                                size: 27,
+                                              ),
+                                              const SizedBox(
+                                                width: 25,
+                                              ),
+                                              Text(
+                                                snapshot.data!.docs[index]
+                                                    ['PaymentMethod'],
+                                                style: const TextStyle(
+                                                    fontSize: 14,
+                                                    fontWeight:
+                                                        FontWeight.bold),
+                                              ),
+                                            ],
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -298,6 +322,9 @@ class _servicesUploadPage extends State<servicesUploadPage> {
     });
   }
 
+  List<String> PaymentMehod = ['Gcash', 'Paymaya', 'COD'];
+  String? value;
+
   Widget displayAdminUploadFormScreen() {
     return Scaffold(
       body: Padding(
@@ -305,7 +332,7 @@ class _servicesUploadPage extends State<servicesUploadPage> {
         child: ListView(
           children: [
             uploading ? circularProgress() : const Text(""),
-            Text(
+            const Text(
               "Add Technician Service",
               textAlign: TextAlign.center,
               style: TextStyle(
@@ -345,6 +372,24 @@ class _servicesUploadPage extends State<servicesUploadPage> {
                     hintStyle: TextStyle(color: Colors.grey),
                     border: InputBorder.none,
                   ),
+                ),
+              ),
+            ),
+            const Divider(
+              color: Colors.black,
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.payments,
+                color: Colors.blue,
+              ),
+              title: SizedBox(
+                width: 250.0,
+                child: DropdownButton<String>(
+                  value: value,
+                  hint: const Text("Please select Payment method"),
+                  items: PaymentMehod.map(buildMenuItem).toList(),
+                  onChanged: (value) => setState(() => this.value = value),
                 ),
               ),
             ),
@@ -419,6 +464,15 @@ class _servicesUploadPage extends State<servicesUploadPage> {
     );
   }
 
+  // For the drop down Items
+  DropdownMenuItem<String> buildMenuItem(String item) => DropdownMenuItem(
+        value: item,
+        child: Text(
+          item,
+          style: const TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
+        ),
+      );
+
   clearFormInfo() {
     Route route = MaterialPageRoute(builder: (c) => technicianHomePage());
     Navigator.pushReplacement(context, route);
@@ -466,6 +520,7 @@ class _servicesUploadPage extends State<servicesUploadPage> {
       "publishedDate": DateTime.now(),
       "thumbnailUrl": downloadUrl,
       "userUid": uid,
+      "PaymentMethod": value,
       "serviceUid": productId.toString(),
     });
 

@@ -23,6 +23,7 @@ class _servicesBooked extends State<servicesBooked> {
   var servicdStatus;
   var statusAccepted = "Accepted";
   var statusRejected = "Rejected";
+  var PaymentStatus = "Paid";
   var Status;
   var Username;
   var location;
@@ -37,6 +38,7 @@ class _servicesBooked extends State<servicesBooked> {
       servicdStatus;
       idInsideUser;
       Status;
+      PaymentStatus;
     });
     return Scaffold(
       body: StreamBuilder(
@@ -198,7 +200,21 @@ class _servicesBooked extends State<servicesBooked> {
                                           ),
                                         ],
                                       ),
-
+                                      Row(
+                                        mainAxisSize: MainAxisSize.max,
+                                        children: [
+                                          Expanded(
+                                            child: Text(
+                                              snapshot.data!.docs[index]
+                                                  ['PaymentStatus'],
+                                              style: const TextStyle(
+                                                  color: Colors.green,
+                                                  fontSize: 13.0,
+                                                  fontWeight: FontWeight.bold),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
                                       // Row(
                                       //   mainAxisSize: MainAxisSize.max,
                                       //   children: [
@@ -251,6 +267,29 @@ class _servicesBooked extends State<servicesBooked> {
                                           accept();
                                         },
                                         child: const Text("Accept"),
+                                      ),
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.only(right: 5),
+                                      child: ElevatedButton(
+                                        onPressed: () {
+                                          gettingStatus = snapshot
+                                              .data!.docs[index]['status'];
+                                          gettingCurrentId =
+                                              snapshot.data!.docs[index].id;
+                                          userBooked = snapshot
+                                              .data!.docs[index]['userBooked'];
+                                          serviceId = snapshot.data!.docs[index]
+                                              ['serviceId'];
+                                          servicdStatus = snapshot
+                                              .data!.docs[index]['status'];
+                                          Status = snapshot.data!.docs[index]
+                                              ['status'];
+                                          markAsPaid();
+                                        },
+                                        style: ElevatedButton.styleFrom(
+                                            primary: Colors.green),
+                                        child: const Text("Mark as Paid"),
                                       ),
                                     ),
                                     Padding(
@@ -384,6 +423,50 @@ class _servicesBooked extends State<servicesBooked> {
     } else {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Text("It's already Rejected"),
+      ));
+    }
+    Navigator.pop(context);
+  }
+
+  // Mark As Paid
+  Future markAsPaid() async {
+    showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (context) => const LoadingAlertDialog(
+              message: "Loading",
+            )).then((value) {
+      Future.delayed(const Duration(seconds: 2));
+    });
+    if (gettingStatus != "Pending") {
+      await technicianApp.firestore!
+          .collection("bookedServices")
+          .doc(gettingCurrentId)
+          .update({
+        "PaymentStatus": PaymentStatus,
+      });
+      var gettingSOmething = await technicianApp.firestore!
+          .collection("users")
+          .doc(userBooked)
+          .collection("servicesBooked")
+          .where('serviceId', isEqualTo: serviceId)
+          .get()
+          .then((value) async {});
+
+      await technicianApp.firestore!
+          .collection("users")
+          .doc(userBooked)
+          .collection("servicesBooked")
+          .doc(idInsideUser)
+          .update({
+        "PaymentStatus": PaymentStatus,
+      });
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text("Service was Marked as Paid"),
+      ));
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text("It's already Paid"),
       ));
     }
     Navigator.pop(context);

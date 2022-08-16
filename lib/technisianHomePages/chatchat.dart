@@ -79,7 +79,7 @@ class _chatchat extends State<chatchat> {
               trailing: CupertinoButton(
                 padding: EdgeInsets.zero,
                 onPressed: () {},
-                child: Icon(CupertinoIcons.phone),
+                child: Text(""),
               ),
               previousPageTitle: "Back",
             ),
@@ -127,10 +127,27 @@ class _chatchat extends State<chatchat> {
                                                       data['uid'].toString())
                                                   ? Colors.white
                                                   : Colors.black),
-                                          child: Text(data['msg'],
-                                              maxLines: 100,
-                                              overflow: TextOverflow.ellipsis),
-                                        )
+                                          child: data['msg'].length < 20
+                                              ? Text(data['msg'])
+                                              : Image.network(
+                                                  data['msg'],
+                                                  width: 200,
+                                                  height: 200,
+                                                ),
+                                          // child: Text(
+                                          //   data(
+                                          //     ['msg'].length < 20
+                                          //         ? Text(
+                                          //             data['msg'],
+                                          //           )
+                                          //         : Image.network(
+                                          //             data['msg'],
+                                          //             width: 200,
+                                          //             height: 200,
+                                          //           ),
+                                          //   ),
+                                          // ),
+                                        ),
                                       ],
                                     ),
                                     Row(
