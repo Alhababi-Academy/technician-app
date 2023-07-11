@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:7:4-39:19
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:7:4-50:19
 MERGED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
 MERGED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-15:19
@@ -67,10 +67,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\As
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:9:9-42
 manifest
-ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 MERGED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_storage] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-17:12
@@ -141,20 +141,20 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Asus\.gradle\caches
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Asus\.gradle\caches\transforms-3\923bdc9e364116a322cf20c5f5285d26\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\11c42f15962c0ea89bc57a472815cd9e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Asus\.gradle\caches\transforms-3\15b8d809ebd5ce6d4f938892895e3c77\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 	package
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:2:5-40
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -345,7 +345,7 @@ INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\s
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 activity#com.example.technicianApp.MainActivity
-ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:11:9-31:20
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:11:9-42:20
 	android:launchMode
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:14:13-43
 	android:hardwareAccelerated
@@ -376,18 +376,40 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:29:17-76
 	android:name
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:29:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.youtube.com+data:pathPrefix:/watch+data:scheme:http
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:31:13-40:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:33:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:34:27-75
+data
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:35:17-39:23
+	android:host
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:37:21-51
+	android:scheme
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:36:21-42
+	android:pathPrefix
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:38:21-48
 meta-data#flutterEmbedding
-ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:34:9-36:33
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:45:9-47:33
 	android:value
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:36:13-30
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:47:13-30
 	android:name
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:46:13-44
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:37:13-38:58
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:48:13-49:58
 	android:value
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:38:1-56
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:49:1-56
 	android:name
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:37:24-69
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:48:24-69
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_auth] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
@@ -464,10 +486,6 @@ action#android.intent.action.GET_CONTENT
 ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-72
 	android:name
 		ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-69
-data
-ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
-	android:mimeType
-		ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:19-41
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
 ADDED from [:image_picker_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
@@ -542,18 +560,6 @@ ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\cach
 		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
 ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
 activity#com.google.firebase.auth.internal.RecaptchaActivity
 ADDED from [com.google.firebase:firebase-auth:22.0.0] C:\Users\Asus\.gradle\caches\transforms-3\9322ddbae9a890fdee4d75e364acbf8d\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
 	android:excludeFromRecents

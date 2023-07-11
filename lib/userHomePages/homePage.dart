@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:technicianApp/Authentication/login.dart';
-import 'package:technicianApp/Models/item.dart';
-import 'package:technicianApp/config/config.dart';
 import 'package:location/location.dart' as loc;
+import 'package:technicianApp/Authentication/login.dart';
+import 'package:technicianApp/config/config.dart';
 import 'package:technicianApp/userHomePages/acceptedOrders.dart';
 import 'package:technicianApp/userHomePages/allOrders.dart';
 import 'package:technicianApp/userHomePages/carTechnisianHistory.dart';
 import 'package:technicianApp/userHomePages/editProfile.dart';
 import 'package:technicianApp/userHomePages/homePageMap.dart';
+import 'package:technicianApp/userHomePages/videoDetails.dart';
 
 class homePage extends StatefulWidget {
   @override
@@ -63,6 +63,13 @@ class _homePage extends State<homePage> {
               .toString(),
           style: const TextStyle(
               color: Colors.white, letterSpacing: 2, fontSize: 23),
+        ),
+        leading: IconButton(
+          onPressed: () {
+            Route route = MaterialPageRoute(builder: (_) => videoDetails());
+            Navigator.push(context, route);
+          },
+          icon: Icon(Icons.info),
         ),
         centerTitle: true,
         actions: [

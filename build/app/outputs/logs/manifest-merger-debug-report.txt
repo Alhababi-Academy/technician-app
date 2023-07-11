@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:7:4-39:19
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:7:4-50:19
 MERGED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
@@ -62,11 +62,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\As
 	android:name
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
-MERGED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
+MERGED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 MERGED from [:cloud_firestore] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_storage] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
@@ -146,11 +146,11 @@ INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\s
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-40:12
+		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:1-51:12
 		INJECTED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Asus\OneDrive\Documents\technician-app-main\android\app\src\main\AndroidManifest.xml:1:11-69
