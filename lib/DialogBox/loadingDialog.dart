@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../Widgets/loadingWidget.dart';
@@ -15,7 +14,7 @@ class LoadingAlertDialog extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           circularProgress(),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Text(message!),

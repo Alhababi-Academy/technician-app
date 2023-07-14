@@ -15,6 +15,8 @@ MERGED from [:image_picker_android] C:\Users\Asus\OneDrive\Documents\technician-
 MERGED from [:image_picker_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [:url_launcher_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
 MERGED from [:url_launcher_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-48:19
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-48:19
 MERGED from [:open_file] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-21:19
 MERGED from [:open_file] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-21:19
 MERGED from [:location] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:19
@@ -80,6 +82,7 @@ MERGED from [:sqflite] C:\Users\Asus\OneDrive\Documents\technician-app-main\buil
 MERGED from [:url_launcher_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:shared_preferences_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-50:12
 MERGED from [:open_file] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [:geocoding_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:fluttertoast] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\fluttertoast\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -105,7 +108,9 @@ MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Asus\.g
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\a5feea295924333655c3cbd650167c16\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Asus\.gradle\caches\transforms-3\0f91d6ceccb43815ed75df61fd0bcfa3\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.7.2] C:\Users\Asus\.gradle\caches\transforms-3\9fd0c18c5a816597ca7c5ccc9e02ca08\transformed\jetified-activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Asus\.gradle\caches\transforms-3\f2cfb07e6ff4feb7eb51688696232874\transformed\webkit-1.5.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Asus\.gradle\caches\transforms-3\2171e13bd58a1629b9dd29b4df5930a3\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Asus\.gradle\caches\transforms-3\8671040c7262c1f82649e42a222e9394\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\5dab230cefbd2f398c20fb1aaf99b5d8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\0155e4e90d154db15cb62f1c9b200dfd\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\297e9133577fd9ba17127baa4722dba1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
@@ -129,10 +134,10 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Asus\.gr
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\1d0ca4bca1b119bd12360dc14975349c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\b4f2a836a8dd2e41d1a734f937d1a094\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Asus\.gradle\caches\transforms-3\2c1e1fab2b4bf987a2bcd3ed18256ea7\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\3790c8ad8d3fade4ff71c05550ec94a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f4c6b5e10d3f00a3a41fdc95d8f37926\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8851490cd70b9158d6528dc8256d91be\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\a10e1dffa7c680c0951a77267ed921e9\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f4c6b5e10d3f00a3a41fdc95d8f37926\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\3790c8ad8d3fade4ff71c05550ec94a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Asus\.gradle\caches\transforms-3\99b6483ed9970e6f589034542d11fc78\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Asus\.gradle\caches\transforms-3\923bdc9e364116a322cf20c5f5285d26\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\11c42f15962c0ea89bc57a472815cd9e\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
@@ -216,6 +221,8 @@ MERGED from [:path_provider_android] C:\Users\Asus\OneDrive\Documents\technician
 MERGED from [:path_provider_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:open_file] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
 MERGED from [:open_file] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
 MERGED from [:geocoding_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\geocoding_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -266,8 +273,12 @@ MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Asus\.gradle\caches\tran
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Asus\.gradle\caches\transforms-3\0f91d6ceccb43815ed75df61fd0bcfa3\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.7.2] C:\Users\Asus\.gradle\caches\transforms-3\9fd0c18c5a816597ca7c5ccc9e02ca08\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.7.2] C:\Users\Asus\.gradle\caches\transforms-3\9fd0c18c5a816597ca7c5ccc9e02ca08\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Asus\.gradle\caches\transforms-3\f2cfb07e6ff4feb7eb51688696232874\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] C:\Users\Asus\.gradle\caches\transforms-3\f2cfb07e6ff4feb7eb51688696232874\transformed\webkit-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Asus\.gradle\caches\transforms-3\2171e13bd58a1629b9dd29b4df5930a3\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Asus\.gradle\caches\transforms-3\2171e13bd58a1629b9dd29b4df5930a3\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Asus\.gradle\caches\transforms-3\8671040c7262c1f82649e42a222e9394\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Asus\.gradle\caches\transforms-3\8671040c7262c1f82649e42a222e9394\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\5dab230cefbd2f398c20fb1aaf99b5d8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\5dab230cefbd2f398c20fb1aaf99b5d8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Asus\.gradle\caches\transforms-3\0155e4e90d154db15cb62f1c9b200dfd\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
@@ -314,14 +325,14 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Asus\.gradle\caches\transf
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\b4f2a836a8dd2e41d1a734f937d1a094\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Asus\.gradle\caches\transforms-3\2c1e1fab2b4bf987a2bcd3ed18256ea7\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] C:\Users\Asus\.gradle\caches\transforms-3\2c1e1fab2b4bf987a2bcd3ed18256ea7\transformed\jetified-firebase-components-17.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\3790c8ad8d3fade4ff71c05550ec94a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\3790c8ad8d3fade4ff71c05550ec94a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f4c6b5e10d3f00a3a41fdc95d8f37926\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f4c6b5e10d3f00a3a41fdc95d8f37926\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8851490cd70b9158d6528dc8256d91be\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8851490cd70b9158d6528dc8256d91be\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\a10e1dffa7c680c0951a77267ed921e9\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\a10e1dffa7c680c0951a77267ed921e9\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f4c6b5e10d3f00a3a41fdc95d8f37926\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f4c6b5e10d3f00a3a41fdc95d8f37926\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\3790c8ad8d3fade4ff71c05550ec94a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Asus\.gradle\caches\transforms-3\3790c8ad8d3fade4ff71c05550ec94a2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Asus\.gradle\caches\transforms-3\99b6483ed9970e6f589034542d11fc78\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Asus\.gradle\caches\transforms-3\99b6483ed9970e6f589034542d11fc78\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Asus\.gradle\caches\transforms-3\923bdc9e364116a322cf20c5f5285d26\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
@@ -408,6 +419,8 @@ ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\b
 		ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
 queries
 ADDED from [:file_picker] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+MERGED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\9ff5a9e5db0aac53bce50b1d4a2740da\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Asus\.gradle\caches\transforms-3\9ff5a9e5db0aac53bce50b1d4a2740da\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
@@ -444,6 +457,72 @@ ADDED from [:url_launcher_android] C:\Users\Asus\OneDrive\Documents\technician-a
 		ADDED from [:url_launcher_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 	android:name
 		ADDED from [:url_launcher_android] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+	android:configChanges
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+	android:value
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
 provider#com.crazecoder.openfile.FileProvider
 ADDED from [:open_file] C:\Users\Asus\OneDrive\Documents\technician-app-main\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-20:20
 	android:grantUriPermissions

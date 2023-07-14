@@ -63,29 +63,6 @@ class _homePageMap extends State<homePageMap> {
     return Material(
       child: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: TextField(
-              onChanged: (value) {
-                setState(() {
-                  searching = value;
-                });
-              },
-              decoration: InputDecoration(
-                filled: true,
-                fillColor: Colors.white,
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(width: 0.5),
-                  borderRadius: BorderRadius.circular(5),
-                ),
-                hintText: 'Search',
-                prefixIcon: Icon(
-                  Icons.search,
-                ),
-                hintStyle: const TextStyle(color: Colors.grey),
-              ),
-            ),
-          ),
           Expanded(
             child: StreamBuilder(
               stream: FirebaseFirestore.instance

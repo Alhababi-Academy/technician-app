@@ -57,6 +57,7 @@ dependencies:
   open_file: ^3.1.0
   file: ^6.1.4
   url_launcher: ^6.0.3
+  youtube_player_flutter: ^8.1.2
 
 dev_dependencies:
   flutter_test:

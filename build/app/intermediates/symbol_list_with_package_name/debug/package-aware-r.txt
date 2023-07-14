@@ -298,6 +298,7 @@ attr subtitleTextAppearance
 attr subtitleTextColor
 attr subtitleTextStyle
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -700,6 +701,7 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable corner
+drawable floating_action_mode_shape
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_call_answer
@@ -772,15 +774,20 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_close
 id action_container
 id action_context_bar
 id action_divider
+id action_go_back
+id action_go_forward
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_reload
+id action_share
 id action_text
 id actions
 id activity_chooser_view_content
@@ -806,6 +813,7 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
+id container
 id content
 id contentPanel
 id custom
@@ -839,6 +847,7 @@ id listMode
 id list_item
 id locale
 id ltr
+id menu_search
 id message
 id middle
 id multiply
@@ -851,8 +860,10 @@ id notification_main_column_container
 id off
 id on
 id parentPanel
+id progressBar
 id progress_circular
 id progress_horizontal
+id pullToRefresh
 id radio
 id report_drawn
 id right_icon
@@ -921,6 +932,7 @@ id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible_removing_fragment_view_tag
+id webView
 id wide
 id withText
 id wrap_content
@@ -965,9 +977,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_web_view
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout chrome_custom_tabs_layout
 layout custom_dialog
+layout floating_action_mode
+layout floating_action_mode_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -979,6 +995,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout toast_custom
+menu menu_main
 mipmap ic_launcher
 raw firebase_common_keep
 string abc_action_bar_home_description
@@ -1008,6 +1025,11 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_close
+string action_go_back
+string action_go_forward
+string action_reload
+string action_share
 string androidx_startup
 string call_notification_answer_action
 string call_notification_answer_video_action
@@ -1044,6 +1066,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string menu_search
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
@@ -1052,6 +1075,7 @@ style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -1208,6 +1232,7 @@ style Base_Widget_AppCompat_TextView
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+style InAppWebViewTheme
 style LaunchTheme
 style NormalTheme
 style Platform_AppCompat
@@ -1324,6 +1349,7 @@ style ThemeOverlay_AppCompat_DayNight_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+style ThemeTransparent
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1448,6 +1474,7 @@ styleable SplitPairRule clearTop finishPrimaryWithSecondary finishSecondaryWithP
 styleable SplitPlaceholderRule placeholderActivityName splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily android_textFontWeight fontFamily fontVariationSettings textAllCaps textLocale
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
@@ -1457,3 +1484,4 @@ styleable ViewStubCompat android_id android_layout android_inflatedId
 xml filepaths
 xml flutter_image_picker_file_paths
 xml image_share_filepaths
+xml provider_paths
