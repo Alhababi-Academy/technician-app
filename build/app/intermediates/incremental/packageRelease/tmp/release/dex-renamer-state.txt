@@ -1,4 +1,0 @@
-#Tue Jul 11 10:28:12 SGT 2023
-base.0=C\:\\Users\\Asus\\OneDrive\\Documents\\technician-app-main\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

@@ -12,19 +12,55 @@ class videoDetails extends StatefulWidget {
 
 class _videoDetailsState extends State<videoDetails> {
   final List<Map<String, String>> videoDetails = [
-    {"title": "How to check Cars Tires", "link": "6PM3M6lWGHM"},
-    {"title": "How to Change Cars Oil", "link": "O1hF25Cowv8"},
-    {"title": "How to jumpstart your car", "link": "wwYrFzwylLo"},
-    {"title": "How to Replace a Headlight", "link": "ax5qKLAHkyA"},
-    {"title": "How to Change a Brake Pad", "link": "x2rTxWx-LfQ"},
-    {"title": "How to Replace a Car Battery", "link": "kKxbyMApkj0"},
-    {"title": "How to Replace Spark Plugs", "link": "m_ZsWQ_WXNo"},
-    {"title": "How to Change a Car's Air Filter", "link": "RdXVxbd59es"},
+    {
+      "title": "How to check Cars Tires",
+      "img": "img/1.png",
+      "link": "6PM3M6lWGHM"
+    },
+    {"title": "How to Change Cars Oil", "img": "", "link": "O1hF25Cowv8"},
+    {"title": "How to jumpstart your car", "img": "", "link": "wwYrFzwylLo"},
+    {"title": "How to Replace a Headlight", "img": "", "link": "ax5qKLAHkyA"},
+    {"title": "How to Change a Brake Pad", "img": "", "link": "x2rTxWx-LfQ"},
+    {"title": "How to Replace a Car Battery", "img": "", "link": "kKxbyMApkj0"},
+    {"title": "How to Replace Spark Plugs", "img": "", "link": "m_ZsWQ_WXNo"},
+    {
+      "title": "How to Change a Car's Air Filter",
+      "img": "",
+      "link": "RdXVxbd59es"
+    },
     {
       "title": "How to Flush and Fill Coolant/Antifreeze",
       "link": "g8YZF5cW7-A"
     },
     {"title": "How to Replace a Car's Serpentine Belt", "link": "riWXM5QdfFk"}
+  ];
+
+  final List<Map<String, String>> videoDetailsWithSIngs = [
+    {
+      "title": "How to check Cars Tires",
+      "img": "img/1.png",
+      "link": "6PM3M6lWGHM"
+    },
+    {
+      "title": "How to check Cars Tires",
+      "img": "img/2.jpeg",
+      "link": "6PM3M6lWGHM"
+    },
+    {
+      "title": "How to check Cars Tires",
+      "img": "img/3.",
+      "link": "6PM3M6lWGHM"
+    },
+    {
+      "title": "How to check Cars Tires",
+      "img": "img/1.png",
+      "link": "6PM3M6lWGHM"
+    },
+    {
+      "title": "How to check Cars Tires",
+      "img": "img/1.png",
+      "link": "6PM3M6lWGHM"
+    },
   ];
 
   @override
@@ -46,8 +82,9 @@ class _videoDetailsState extends State<videoDetails> {
                     itemBuilder: (BuildContext context, int index) {
                       final title = videoDetails[index]['title'];
                       final link = videoDetails[index]['link'];
+                      final images = videoDetails[index]['img'];
                       return Container(
-                        margin: EdgeInsets.all(4),
+                        margin: const EdgeInsets.all(4),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           color: Colors.blue,
@@ -67,9 +104,17 @@ class _videoDetailsState extends State<videoDetails> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      Text(
-                                        title.toString(),
-                                        style: TextStyle(color: Colors.white),
+                                      Row(
+                                        children: [
+                                          Text(
+                                            title.toString(),
+                                            style: const TextStyle(
+                                                color: Colors.white),
+                                          ),
+                                          images != ""
+                                              ? Image.asset(images!)
+                                              : Container()
+                                        ],
                                       ),
                                       Text(
                                         link.toString(),
