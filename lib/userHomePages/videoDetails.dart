@@ -12,11 +12,6 @@ class videoDetails extends StatefulWidget {
 
 class _videoDetailsState extends State<videoDetails> {
   final List<Map<String, String>> videoDetails = [
-    {
-      "title": "How to check Cars Tires",
-      "img": "img/1.png",
-      "link": "6PM3M6lWGHM"
-    },
     {"title": "How to Change Cars Oil", "img": "", "link": "O1hF25Cowv8"},
     {"title": "How to jumpstart your car", "img": "", "link": "wwYrFzwylLo"},
     {"title": "How to Replace a Headlight", "img": "", "link": "ax5qKLAHkyA"},
@@ -30,16 +25,13 @@ class _videoDetailsState extends State<videoDetails> {
     },
     {
       "title": "How to Flush and Fill Coolant/Antifreeze",
+      "img": "",
       "link": "g8YZF5cW7-A"
     },
-    {"title": "How to Replace a Car's Serpentine Belt", "link": "riWXM5QdfFk"}
-  ];
-
-  final List<Map<String, String>> videoDetailsWithSIngs = [
     {
-      "title": "How to check Cars Tires",
+      "title": "How to Replace a Car's Serpentine Belt",
       "img": "img/1.png",
-      "link": "6PM3M6lWGHM"
+      "link": "riWXM5QdfFk"
     },
     {
       "title": "How to check Cars Tires",
@@ -48,17 +40,17 @@ class _videoDetailsState extends State<videoDetails> {
     },
     {
       "title": "How to check Cars Tires",
-      "img": "img/3.",
+      "img": "img/3.png",
       "link": "6PM3M6lWGHM"
     },
     {
       "title": "How to check Cars Tires",
-      "img": "img/1.png",
+      "img": "img/5.png",
       "link": "6PM3M6lWGHM"
     },
     {
       "title": "How to check Cars Tires",
-      "img": "img/1.png",
+      "img": "img/6.png",
       "link": "6PM3M6lWGHM"
     },
   ];
@@ -111,8 +103,14 @@ class _videoDetailsState extends State<videoDetails> {
                                             style: const TextStyle(
                                                 color: Colors.white),
                                           ),
+                                          const SizedBox(
+                                            width: 5,
+                                          ),
                                           images != ""
-                                              ? Image.asset(images!)
+                                              ? Image.asset(
+                                                  images!,
+                                                  width: 30,
+                                                )
                                               : Container()
                                         ],
                                       ),

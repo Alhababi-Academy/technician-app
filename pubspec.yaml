@@ -86,20 +86,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - img/Spa-services.png
-    - img/register.jpg
-    - img/login.png
-    - img/bodyCare.jpg
-    - img/barber.jpg
-    - img/spa.jpg
-    - img/derma.jpg
-    - img/cash.png
-    - img/PT.jpg
-    - img/background.jpeg
-    - img/whatsapp.png
-    - img/station.jpeg
-    - img/r1.png
-    - img/r2.png
+    - img/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
