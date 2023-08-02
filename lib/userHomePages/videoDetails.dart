@@ -29,29 +29,21 @@ class _videoDetailsState extends State<videoDetails> {
       "link": "g8YZF5cW7-A"
     },
     {
-      "title": "How to Replace a Car's Serpentine Belt",
+      "title": "Tire Pressure Warning",
       "img": "img/1.png",
-      "link": "riWXM5QdfFk"
+      "link": "LNh0c2gfT0c"
     },
     {
-      "title": "How to check Cars Tires",
+      "title": "problem with the fuel system",
       "img": "img/2.jpeg",
-      "link": "6PM3M6lWGHM"
+      "link": "a5AMwRk2GPI"
     },
+    {"title": "Low oil level", "img": "img/3.png", "link": "77gg3ueIYas"},
+    {"title": "Turn Off the Engine", "img": "img/5.png", "link": "1VlLZX4qYb4"},
     {
-      "title": "How to check Cars Tires",
-      "img": "img/3.png",
-      "link": "6PM3M6lWGHM"
-    },
-    {
-      "title": "How to check Cars Tires",
-      "img": "img/5.png",
-      "link": "6PM3M6lWGHM"
-    },
-    {
-      "title": "How to check Cars Tires",
+      "title": "Have the battery Tested",
       "img": "img/6.png",
-      "link": "6PM3M6lWGHM"
+      "link": "dkZQDBddAaM"
     },
   ];
 
@@ -109,7 +101,7 @@ class _videoDetailsState extends State<videoDetails> {
                                           images != ""
                                               ? Image.asset(
                                                   images!,
-                                                  width: 30,
+                                                  width: 40,
                                                 )
                                               : Container()
                                         ],

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Asus\\OneDrive\\Documents\\technician-app-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/Users/zeyadalhababi/Desktop/Devloper/flutterProjects/technician-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-3\\8db33343619f2fa089acd912bbc5ce9e\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/zeyadalhababi/.gradle/caches/transforms-3/8db33343619f2fa089acd912bbc5ce9e/transformed/appcompat-1.6.1/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

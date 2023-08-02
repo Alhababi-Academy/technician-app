@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Asus\\OneDrive\\Documents\\technician-app-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/zeyadalhababi/Desktop/Devloper/flutterProjects/technician-app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-3\\694c1db2d9483ba1bd1180b60fbc496c\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/zeyadalhababi/.gradle/caches/transforms-3/694c1db2d9483ba1bd1180b60fbc496c/transformed/core-1.10.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-3\\8db33343619f2fa089acd912bbc5ce9e\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/zeyadalhababi/.gradle/caches/transforms-3/8db33343619f2fa089acd912bbc5ce9e/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
